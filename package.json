@@ -1,0 +1,33 @@
+{
+  "name": "wraper-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@primevue/themes": "^4.0.2",
+    "@types/vue": "^2.0.0",
+    "axios": "^1.7.2",
+    "pinia": "^2.2.0",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.0.2",
+    "vue": "^3.4.31",
+    "vue-router": "next",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/cli-plugin-typescript": "^5.0.8",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7",
+    "tailwindcss-animated": "^1.1.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vue-tsc": "^2.0.24"
+  }
+}
